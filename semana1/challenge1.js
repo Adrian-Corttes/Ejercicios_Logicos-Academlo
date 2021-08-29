@@ -12,14 +12,13 @@ const reverseString = (str) => {
 }
 
 // const reverseString = (str) =>{
-//     str.split('').reverse().join('');
-//     let message = str;
+//     const message = str.split('').reverse().join('');
 
-//     if(message.length > 15 || message.length <= 1){
+//     if(typeof message === 'number' || message.length > 15 || message.length <= 1){
 //         throw new Error('Tipo de dato o longitud no admitidos');
 //     }
 
-//     return message
+//     return toString(message);
 // }
 
 module.exports = {
